@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9753693BF95E9A4EC41A49A6 /* Pods_Dota_Auto_Chess_Friend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461298C13104207514D8A8A1 /* Pods_Dota_Auto_Chess_Friend.framework */; };
+		A3321D08225A8A3200CE1931 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3321D07225A8A3200CE1931 /* SQLite.framework */; };
+		A35868D0224C1ED200667F28 /* HeroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35868CF224C1ED200667F28 /* HeroDetailView.swift */; };
+		A35868D2224C2C7C00667F28 /* Lineups.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35868D1224C2C7C00667F28 /* Lineups.swift */; };
+		A35868D4224C345600667F28 /* LineupCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35868D3224C345600667F28 /* LineupCollectionViewController.swift */; };
+		A35868D6224C3DEE00667F28 /* LineupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35868D5224C3DEE00667F28 /* LineupCollectionViewCell.swift */; };
+		A35868D8224CA26800667F28 /* PasswordHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35868D7224CA26800667F28 /* PasswordHandler.swift */; };
+		A3A0304122495C4C00C103DD /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0304022495C4C00C103DD /* NavigationController.swift */; };
+		A3A030432249707100C103DD /* HeroesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A030422249707100C103DD /* HeroesTableViewCell.swift */; };
+		A3CAF49F2247FBD300C5DD73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CAF49E2247FBD300C5DD73 /* AppDelegate.swift */; };
+		A3CAF4A12247FBD300C5DD73 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CAF4A02247FBD300C5DD73 /* AdminViewController.swift */; };
+		A3CAF4A42247FBD300C5DD73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CAF4A22247FBD300C5DD73 /* Main.storyboard */; };
+		A3CAF4A62247FBD500C5DD73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3CAF4A52247FBD500C5DD73 /* Assets.xcassets */; };
+		A3CAF4A92247FBD500C5DD73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CAF4A72247FBD500C5DD73 /* LaunchScreen.storyboard */; };
+		A3CAF4B12247FFCA00C5DD73 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CAF4B02247FFCA00C5DD73 /* HeroModel.swift */; };
+		A3CAF4B3224823F100C5DD73 /* HeroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CAF4B2224823F100C5DD73 /* HeroTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		461298C13104207514D8A8A1 /* Pods_Dota_Auto_Chess_Friend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dota_Auto_Chess_Friend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A708FF8B71327F2E64873A3 /* Pods-Dota Auto Chess Friend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota Auto Chess Friend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dota Auto Chess Friend/Pods-Dota Auto Chess Friend.debug.xcconfig"; sourceTree = "<group>"; };
+		A3321D03225A89F500CE1931 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3321D07225A8A3200CE1931 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A35868CF224C1ED200667F28 /* HeroDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailView.swift; sourceTree = "<group>"; };
+		A35868D1224C2C7C00667F28 /* Lineups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lineups.swift; sourceTree = "<group>"; };
+		A35868D3224C345600667F28 /* LineupCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineupCollectionViewController.swift; sourceTree = "<group>"; };
+		A35868D5224C3DEE00667F28 /* LineupCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineupCollectionViewCell.swift; sourceTree = "<group>"; };
+		A35868D7224CA26800667F28 /* PasswordHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordHandler.swift; sourceTree = "<group>"; };
+		A3A0304022495C4C00C103DD /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		A3A030422249707100C103DD /* HeroesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableViewCell.swift; sourceTree = "<group>"; };
+		A3CAF49B2247FBD300C5DD73 /* Dota Auto Chess Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dota Auto Chess Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CAF49E2247FBD300C5DD73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3CAF4A02247FBD300C5DD73 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		A3CAF4A32247FBD300C5DD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3CAF4A52247FBD500C5DD73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3CAF4A82247FBD500C5DD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3CAF4AA2247FBD500C5DD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CAF4B02247FFCA00C5DD73 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
+		A3CAF4B2224823F100C5DD73 /* HeroTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewController.swift; sourceTree = "<group>"; };
+		C7D877D1070D41E33CA28D8A /* Pods-Dota Auto Chess Friend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota Auto Chess Friend.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dota Auto Chess Friend/Pods-Dota Auto Chess Friend.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3CAF4982247FBD300C5DD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3321D08225A8A3200CE1931 /* SQLite.framework in Frameworks */,
+				9753693BF95E9A4EC41A49A6 /* Pods_Dota_Auto_Chess_Friend.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A44D595AFAD90CA4F92A0D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A708FF8B71327F2E64873A3 /* Pods-Dota Auto Chess Friend.debug.xcconfig */,
+				C7D877D1070D41E33CA28D8A /* Pods-Dota Auto Chess Friend.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3A0305E224B880300C103DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3321D07225A8A3200CE1931 /* SQLite.framework */,
+				A3321D03225A89F500CE1931 /* SQLite.framework */,
+				461298C13104207514D8A8A1 /* Pods_Dota_Auto_Chess_Friend.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3CAF4922247FBD300C5DD73 = {
+			isa = PBXGroup;
+			children = (
+				A3CAF49D2247FBD300C5DD73 /* Dota Auto Chess Friend */,
+				A3CAF49C2247FBD300C5DD73 /* Products */,
+				A3A0305E224B880300C103DD /* Frameworks */,
+				6A44D595AFAD90CA4F92A0D4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A3CAF49C2247FBD300C5DD73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3CAF49B2247FBD300C5DD73 /* Dota Auto Chess Friend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3CAF49D2247FBD300C5DD73 /* Dota Auto Chess Friend */ = {
+			isa = PBXGroup;
+			children = (
+				A3CAF49E2247FBD300C5DD73 /* AppDelegate.swift */,
+				A3CAF4A02247FBD300C5DD73 /* AdminViewController.swift */,
+				A3CAF4B2224823F100C5DD73 /* HeroTableViewController.swift */,
+				A3CAF4A22247FBD300C5DD73 /* Main.storyboard */,
+				A3CAF4A52247FBD500C5DD73 /* Assets.xcassets */,
+				A3CAF4A72247FBD500C5DD73 /* LaunchScreen.storyboard */,
+				A3CAF4AA2247FBD500C5DD73 /* Info.plist */,
+				A3CAF4B02247FFCA00C5DD73 /* HeroModel.swift */,
+				A3A0304022495C4C00C103DD /* NavigationController.swift */,
+				A3A030422249707100C103DD /* HeroesTableViewCell.swift */,
+				A35868CF224C1ED200667F28 /* HeroDetailView.swift */,
+				A35868D1224C2C7C00667F28 /* Lineups.swift */,
+				A35868D3224C345600667F28 /* LineupCollectionViewController.swift */,
+				A35868D5224C3DEE00667F28 /* LineupCollectionViewCell.swift */,
+				A35868D7224CA26800667F28 /* PasswordHandler.swift */,
+			);
+			path = "Dota Auto Chess Friend";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3CAF49A2247FBD300C5DD73 /* Dota Auto Chess Friend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CAF4AD2247FBD500C5DD73 /* Build configuration list for PBXNativeTarget "Dota Auto Chess Friend" */;
+			buildPhases = (
+				426A9B0316F5F047EA9D5CD4 /* [CP] Check Pods Manifest.lock */,
+				A3CAF4972247FBD300C5DD73 /* Sources */,
+				A3CAF4982247FBD300C5DD73 /* Frameworks */,
+				A3CAF4992247FBD300C5DD73 /* Resources */,
+				942234DBFD48925324A21CB8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dota Auto Chess Friend";
+			productName = "Dota Auto Chess Friend";
+			productReference = A3CAF49B2247FBD300C5DD73 /* Dota Auto Chess Friend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3CAF4932247FBD300C5DD73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tommy Andersson";
+				TargetAttributes = {
+					A3CAF49A2247FBD300C5DD73 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A3CAF4962247FBD300C5DD73 /* Build configuration list for PBXProject "Dota Auto Chess Friend" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3CAF4922247FBD300C5DD73;
+			productRefGroup = A3CAF49C2247FBD300C5DD73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3CAF49A2247FBD300C5DD73 /* Dota Auto Chess Friend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3CAF4992247FBD300C5DD73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CAF4A92247FBD500C5DD73 /* LaunchScreen.storyboard in Resources */,
+				A3CAF4A62247FBD500C5DD73 /* Assets.xcassets in Resources */,
+				A3CAF4A42247FBD300C5DD73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		426A9B0316F5F047EA9D5CD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dota Auto Chess Friend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		942234DBFD48925324A21CB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dota Auto Chess Friend/Pods-Dota Auto Chess Friend-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dota Auto Chess Friend/Pods-Dota Auto Chess Friend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3CAF4972247FBD300C5DD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35868D2224C2C7C00667F28 /* Lineups.swift in Sources */,
+				A3CAF4A12247FBD300C5DD73 /* AdminViewController.swift in Sources */,
+				A3A030432249707100C103DD /* HeroesTableViewCell.swift in Sources */,
+				A35868D0224C1ED200667F28 /* HeroDetailView.swift in Sources */,
+				A35868D8224CA26800667F28 /* PasswordHandler.swift in Sources */,
+				A3CAF49F2247FBD300C5DD73 /* AppDelegate.swift in Sources */,
+				A3A0304122495C4C00C103DD /* NavigationController.swift in Sources */,
+				A3CAF4B12247FFCA00C5DD73 /* HeroModel.swift in Sources */,
+				A3CAF4B3224823F100C5DD73 /* HeroTableViewController.swift in Sources */,
+				A35868D4224C345600667F28 /* LineupCollectionViewController.swift in Sources */,
+				A35868D6224C3DEE00667F28 /* LineupCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3CAF4A22247FBD300C5DD73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CAF4A32247FBD300C5DD73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3CAF4A72247FBD500C5DD73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CAF4A82247FBD500C5DD73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3CAF4AB2247FBD500C5DD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3CAF4AC2247FBD500C5DD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3CAF4AE2247FBD500C5DD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A708FF8B71327F2E64873A3 /* Pods-Dota Auto Chess Friend.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBUBK2DRJK;
+				INFOPLIST_FILE = "Dota Auto Chess Friend/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iths.Dota-Auto-Chess-Friend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3CAF4AF2247FBD500C5DD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D877D1070D41E33CA28D8A /* Pods-Dota Auto Chess Friend.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBUBK2DRJK;
+				INFOPLIST_FILE = "Dota Auto Chess Friend/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iths.Dota-Auto-Chess-Friend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3CAF4962247FBD300C5DD73 /* Build configuration list for PBXProject "Dota Auto Chess Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CAF4AB2247FBD500C5DD73 /* Debug */,
+				A3CAF4AC2247FBD500C5DD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CAF4AD2247FBD500C5DD73 /* Build configuration list for PBXNativeTarget "Dota Auto Chess Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CAF4AE2247FBD500C5DD73 /* Debug */,
+				A3CAF4AF2247FBD500C5DD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3CAF4932247FBD300C5DD73 /* Project object */;
+}
