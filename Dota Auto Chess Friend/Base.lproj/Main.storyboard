@@ -170,13 +170,13 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j2A-Rb-flW">
-                                            <rect key="frame" x="11" y="2" width="114" height="58"/>
+                                            <rect key="frame" x="7" y="2" width="114" height="58"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="114" id="FkG-L6-7wW"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6X9-QH-foo">
-                                            <rect key="frame" x="133" y="2" width="65" height="58"/>
+                                            <rect key="frame" x="129" y="2" width="65" height="58"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="65" id="UDa-4d-eRo"/>
                                             </constraints>
@@ -185,7 +185,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEn-hg-jE3">
-                                            <rect key="frame" x="218" y="0.0" width="64" height="58"/>
+                                            <rect key="frame" x="214" y="0.0" width="64" height="58"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="64" id="Bac-yR-wYi"/>
                                             </constraints>
@@ -194,7 +194,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qg6-kv-8KO">
-                                            <rect key="frame" x="306" y="5" width="290" height="48"/>
+                                            <rect key="frame" x="302" y="5" width="73" height="48"/>
                                             <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
@@ -316,10 +316,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6fz-Lr-R4P">
-                                <rect key="frame" x="6" y="71" width="574" height="250"/>
+                                <rect key="frame" x="6" y="71" width="353" height="317"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36Q-kY-p30">
-                                <rect key="frame" x="20" y="339" width="560" height="62"/>
+                                <rect key="frame" x="16" y="406" width="343" height="62"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62" id="EuZ-SZ-Eoe"/>
                                 </constraints>
@@ -328,13 +328,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3S-mH-9Nx">
-                                <rect key="frame" x="20" y="457" width="560" height="62"/>
+                                <rect key="frame" x="16" y="524" width="343" height="62"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xju-Y3-w3m">
-                                <rect key="frame" x="20" y="401" width="560" height="62"/>
+                                <rect key="frame" x="16" y="468" width="343" height="62"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>

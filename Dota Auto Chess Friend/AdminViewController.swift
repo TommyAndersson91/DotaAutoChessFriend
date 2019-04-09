@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     static var heroList = [Hero]()
     static var heroLister = [(heroId: Int, heroName: String, heroClass: String, heroRace: String)]()
     let heroesTable = Table("heroes")
-    let defaults = UserDefaults.standard
+   
     @IBOutlet weak var heroNameText: UITextField!
     
     @IBOutlet weak var heroRacesPicker: UIPickerView!
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         heroClassesPicker.delegate = self
         
         
-        defaults.set(heroesTable, forKey: "savedHeroes")
+       
     }
     
     @IBAction func listHeroes(_ sender: Any) {
@@ -162,7 +162,7 @@ class ViewController: UIViewController {
         let insertHero = self.heroesTable.insert(Hero.name <- name, Hero.heroClass <- hClass, Hero.race <- race, Hero.heroImage <- name)
         do {
             try self.database.run(insertHero)
-            Hero.heroImages.append(heroImage.image!)
+      //      Hero.heroImages.append(heroImage.image!)
 //            Hero.heroImages.last?.accessibilityIdentifier = name
             print("\(name) saved")
         } catch {
